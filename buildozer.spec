@@ -13,7 +13,7 @@ fullscreen = 0
 # Modern Android target
 android.api = 35
 android.minapi = 24
-android.ndk = 25b
+android.ndk = 27b
 android.ndk_api = 24
 android.archs = arm64-v8a
 android.accept_sdk_license = True
