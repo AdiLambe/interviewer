@@ -1,3 +1,4 @@
+
 [app]
 title = Mock Interview
 package.name = mockinterview
@@ -6,9 +7,12 @@ source.dir = .
 source.include_exts = py,kv,png,jpg,atlas,txt
 source.exclude_dirs = .github,bin,.buildozer
 version = 2.0.0
-requirements = python3,kivy,plyer,pyjnius,charset-normalizer==2.1.1
+
+requirements = python3==3.12.9,hostpython3==3.12.9,kivy==2.3.0,plyer,pyjnius,charset-normalizer==2.1.1
+
 orientation = portrait
 fullscreen = 0
+
 android.api = 33
 android.minapi = 24
 android.ndk = 25b
@@ -18,6 +22,9 @@ android.accept_sdk_license = True
 android.allow_backup = True
 android.debug_artifact = apk
 
+p4a.branch = master
+
 [buildozer]
 log_level = 2
 warn_on_root = 1
+
