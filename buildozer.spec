@@ -8,7 +8,7 @@ source.include_exts = py,kv,png,jpg,atlas,txt
 source.exclude_dirs = .github,bin,.buildozer
 version = 2.0.0
 
-requirements = python3==3.12.9,hostpython3==3.12.9,kivy==2.3.0,plyer,pyjnius,charset-normalizer==2.1.1
+requirements = python3==3.12.9,hostpython3==3.12.9,kivy==2.3.0,plyer,pyjnius
 
 orientation = portrait
 fullscreen = 0
