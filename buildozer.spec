@@ -21,7 +21,7 @@ android.allow_backup = False
 android.debug_artifact = apk
 
 # Updated python-for-android branch
-p4a.branch = develop
+p4a.branch = v2024.01.21
 
 [buildozer]
 log_level = 2
