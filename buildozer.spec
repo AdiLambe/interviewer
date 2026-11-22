@@ -6,7 +6,7 @@ source.dir = .
 source.include_exts = py,kv,png,jpg,atlas,txt
 source.exclude_dirs = .github,bin,.buildozer
 version = 2.0.0
-requirements = python3,kivy,plyer,pyjnius
+requirements = python3,kivy,plyer,pyjnius,charset-normalizer==2.1.1
 orientation = portrait
 fullscreen = 0
 android.api = 33
